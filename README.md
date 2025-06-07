@@ -96,25 +96,6 @@ void main() {
 
 ```
 
-### Example `Color` class
-
-```dart
-class Color {
-  final String name, description;
-
-  const Color(this.name, this.description);
-
-  static const Color red = Color('Red', 'The color of apples.');
-  static const Color blue = Color('Blue', 'The color of the sky.');
-  static const Color green = Color('Green', 'The color of leaves.');
-
-  String get about => '$name - $description';
-
-  @override
-  String toString() => name;
-}
-```
-
 ---
 
 ## 📚 API Overview
@@ -126,7 +107,7 @@ class Color {
 | `promptr.getInt(...)`          | Prompt for an integer with optional default |
 | `promptr.choose(...)`          | Multi-line, user-friendly choice menu       |
 | `promptr.chooseShorthand(...)` | Quick one-liner style menu                  |
-| `promptr.chooseMultiple(...)`  | Select multiple options from a list         |
+| `promptr.multiChoose(...)`     | Select multiple options from a list         |
 
 ---
 
