@@ -113,7 +113,10 @@ void main() {
 
 ## 📸 Demo
 
-Check the [`example/`](example/) folder or [demo.mp4](example/demo.mp4) to see it in action!
+<img src="https://raw.githubusercontent.com/imshibl/promptr/main/example/demo.gif" alt="MasterHead" width="1000" height="450"/>
+
+Check out this dart package:  
+👉 [flutter_starter_x on pub.dev](https://pub.dev/packages/flutter_starter_x)
 
 ---
 
