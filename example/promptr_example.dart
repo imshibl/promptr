@@ -15,7 +15,7 @@ void main() {
     allowMultiline: true,
     inputColor: cyan,
   );
-  print('\nBio saved!');
+  print('\nBio saved!\nBio: $bio');
 
   // Ask for primary programming language
   final languages = ['Dart', 'Python', 'JavaScript', 'C++', 'Go'];
